@@ -18,6 +18,9 @@ dev = [
     "pytest>=9.0.3",
 ]
 
+[tool.pytest.ini_options]
+python_files = ["test*.py", "test_*.py"]
+
 [tool.maturin]
 python-source = "."
 module-name = "tihrc.migine._core_migine"
