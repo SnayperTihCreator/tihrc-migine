@@ -52,7 +52,7 @@ jobs:
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
       - name: Build sdist
-        run: uv build --no-build-isolation
+        run: uv build
       - name: Upload sdist
         uses: actions/upload-artifact@v4
         with:
