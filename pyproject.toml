@@ -13,6 +13,11 @@ dependencies = [
     "sympy>=1.14.0",
 ]
 
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
+
 [tool.maturin]
 python-source = "."
 module-name = "tihrc.migine._core_migine"
